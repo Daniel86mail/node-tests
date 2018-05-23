@@ -26,7 +26,7 @@ it('should split the full name', () => {
     });
 });
 
-it('should add async add two numbers', (done) => {
+it('should add async add two numbers', (done) => { //done makes the test wait for async
     utils.asyncAdd(4,3, (sum) => {
         expect(sum).toBe(7).toBeA('number');
         done();
