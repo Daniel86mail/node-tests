@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Daniel86mail/node-tests#readme",
   "devDependencies": {
+    "expect": "^1.2.0",
     "mocha": "^5.2.0"
   }
 }
