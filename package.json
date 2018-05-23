@@ -1,0 +1,23 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel86mail/node-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel86mail/node-tests/issues"
+  },
+  "homepage": "https://github.com/Daniel86mail/node-tests#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
